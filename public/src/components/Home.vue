@@ -3,9 +3,9 @@
               
               <div class="container">
                  <div class="row">
-                    <div class="col-md-1 col-md-offset">
-                        <section id="intro" style="position:relative;z-index:200;margin:0 14px;">
-                           <img src="http://lorempixel.com/180/190/people/avatar" class="img-circles"> 
+                    <div class="col-md-1">
+                        <section id="intro" style="position:relative;z-index:200;margin:0 15px;">
+                           <img src="http://lorempixel.com/180/190/transport/avatar" class="img-circles"> 
                            <div class="col-md-1 col-md-offset-1">
                                <left-side-menu :menu="sidelinks"></left-side-menu> 
                            </div>
@@ -265,7 +265,7 @@
                     </div>
                  </div>
               </div>
-            </div>
+  </div>
 </template>
 
 <script>

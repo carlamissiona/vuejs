@@ -11,10 +11,11 @@
                      <li>find a living</li>
                      <li><a href="#"></a></li>
                      <li><a href="#"></a></li>
-                     <li><a href="home.html">Home</a></li>
-                     <li><a href="careers-home.html">Careers</a></li>
-                     <li><a href="pursuits.html">Pursuits</a></li>
-                     <li><a href="crowd.html">Crowd</a></li>
+                     <li> <router-link :to="{ path: '/'}">Home</router-link></li>
+                     <li> <router-link :to="{ path: 'careers'}">Careers</router-link></li>
+                     <li> <router-link :to="{ path: 'pursuits'}">Pursuits</router-link></li>
+                     <li> <router-link :to="{ path: 'crowd'}">Crowd</router-link></li>
+                     
                      <li style="margin-left:33%;"><a href="store.html">Exchange</a></li>
                   </ul>
                </nav>
