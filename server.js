@@ -10,7 +10,7 @@ var mongoose = require('mongoose'); // mongoose for mongodb
 var database = require('./config/database'); //load the database config
 
 // configuration =================
-app.use(express.static(__dirname + '/public')); // set the static files location /public/img will be /img for users
+app.use(express.static(__dirname + '/public/dist/')); // set the static files location /public/img will be /img for users
 app.use(morgan('combined')); // log every request to the console
 app.use(bodyParser.urlencoded({'extended': 'true'})); // parse application/x-www-form-urlencoded
 app.use(bodyParser.json()); // parse application/json
