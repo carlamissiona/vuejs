@@ -1,6 +1,6 @@
 # demo
 
-> A Vue.js project
+This is production vue pursuits
 
 ## Build Setup
 
